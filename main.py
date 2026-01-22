@@ -3,6 +3,8 @@ Python Calculator - Main Program
 A menu-driven calculator that performs basic arithmetic operations
 """
 
+from addition import add_with_display
+
 def display_menu():
     """Display the calculator menu"""
     print("\n" + "="*40)
@@ -44,10 +46,9 @@ def main():
             num1, num2 = get_numbers()
             
             if num1 is not None and num2 is not None:
-                # Placeholder for arithmetic operations
-                # Functions will be integrated from feature branches
+                # Arithmetic operations
                 if choice == '1':
-                    print(f"\nResult: Addition feature coming soon!")
+                    add_with_display(num1, num2)
                 elif choice == '2':
                     print(f"\nResult: Subtraction feature coming soon!")
                 elif choice == '3':
