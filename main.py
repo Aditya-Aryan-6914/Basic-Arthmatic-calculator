@@ -5,6 +5,7 @@ A menu-driven calculator that performs basic arithmetic operations
 
 from addition import add_with_display
 from subtraction import subtract_with_display
+from multiplication import multiply_with_display
 
 def display_menu():
     """Display the calculator menu"""
@@ -53,7 +54,7 @@ def main():
                 elif choice == '2':
                     subtract_with_display(num1, num2)
                 elif choice == '3':
-                    print(f"\nResult: Multiplication feature coming soon!")
+                    multiply_with_display(num1, num2)
                 elif choice == '4':
                     print(f"\nResult: Division feature coming soon!")
         else:
