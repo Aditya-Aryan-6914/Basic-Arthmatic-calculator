@@ -61,4 +61,4 @@ This project was created for educational purposes to demonstrate Git and GitHub 
 This project is open source and available for educational use.
 
 ---
-*A project by IIT Madras Workshop - Demonstrating Git & GitHub Best Practices*
+*A project for IIT Madras Workshop - Demonstrating Git & GitHub Best Practices*
